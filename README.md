@@ -38,3 +38,46 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+--------------------------------------------------------------------------------------------------------
+
+## INTRODUCCCION
+
+Deploy con vercel
+Rutas sistema optimizado con archivos
+SEO metadata
+Ssr >>> Gatsby
+SI es ssr se desactiva el SSG
+Sigue siendo SPA
+Code splitting 
+
+Next utiliza React fast refresh, en desarrollo es mucho más rapido.
+
+
+## Estilos
+
+Los estilos locales dentro de un js solo afectan a ese archivo. Next crea clases propias para identificarlos.
+
+<style jsx>{`
+      sintaxis css.
+      Next lee un string
+`}</style>
+
+Los estilos globales afectarán a toda la app:
+
+<style jsx global>{`
+      sintaxis css.
+      Next lee un string
+`}</style>
+
+
+## Paginación / Rutas
+
+- Se crean nuevos archivos index.js para cada página.
+- Se importa Link.
+- Usamos: 
+<Link href='url'>Ir a ...</Link> 
+// En versiones anteriores para que sea semánticamente correcto <a> debía estar dentro de Link, hoy ya no hace falta, Link se renderiza como <a>
+
+- De está manera pese a usar distintos index.js se comportará como SPA

@@ -1,9 +1,46 @@
+
+.title {
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  margin-top: 50px;
+  text-transform: uppercase;
+  font-family: '__Inter_aaf875', '__Inter_Fallback_aaf875';
+  font-style: normal;
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+
+.subtitle{
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul{
+  list-style: none;
+}
+
+pre {
+  background: var(--primary-glow);
+  border-radius: 16px;
+  padding: 20px;
+  margin: 15px 0px ;
+  font-family: monospace;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   justify-content: start;
   padding: 6rem;
   min-height: 100vh;
+  font-family: '__Inter_aaf875', '__Inter_Fallback_aaf875'; 
 }
 .main.content {
   display: flex;
@@ -18,10 +55,6 @@
   justify-content: end;
   gap: 30px;
   margin: 0px;
-}
-
-.nav li{
-  font-weight: 500;
 }
 /* Estilos para el contenedor del dropdown */
 .dropDown {
