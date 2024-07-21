@@ -34,6 +34,22 @@ export default function Documentacion() {
                             Rutas en Next.js, paginación
                         </p>
                     </Link>
+                    <Link href="/documentacion/fetching-y-props" className={styles.card}>
+                        <h2>
+                            Fetching y Props <span>-&gt;</span>
+                        </h2>
+                        <p>
+                            métodos, fetching, apis.
+                        </p>
+                    </Link>
+                    <Link href="/documentacion/buenas-practicas" className={styles.card}>
+                        <h2>
+                            Buenas Prácticas <span>-&gt;</span>
+                        </h2>
+                        <p>
+                            Buenas prácticas en Next.js, escalabilidad y sustentabilidad.
+                        </p>
+                    </Link>
                 </div>
             </main >
         </>

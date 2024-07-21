@@ -22,6 +22,12 @@ export default function NavBar() {
             <li>
               <Link href="/documentacion/rutas">Rutas</Link>
             </li>
+            <li>
+              <Link href="/documentacion/fetching-y-props">Fetching y Props</Link>
+            </li>
+            <li>
+              <Link href="/documentacion/buenas-practicas">Buenas Prácticas</Link>
+            </li>
           </ul>
         </li>
       </ul>

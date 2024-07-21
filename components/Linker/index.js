@@ -1,10 +1,11 @@
 import Link from "next/link"
 
-export default function Linker ( {children, href } ) {
+export default function Linker ( { href ,content, customClass} ) {
     return (
-        <Link href={href}>
-            {children}
-        </Link>
+        <div>
+            <Link className={customClass} href={href}>{content}</Link>
+        </div>
        
     )
 }
+

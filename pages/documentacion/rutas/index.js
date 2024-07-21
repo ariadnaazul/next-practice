@@ -25,10 +25,24 @@ export default function () {
                 <p></p>
                 <p>/ siempre hará referencia al <i>index.js</i> dentro de <i>pages</i></p>
                 <p>El resto de las rutas de establecen en base al anidamiento de carpetas dentro de pages.</p>
-                <h2 className="subtitle">Escalabilidad</h2>
+                <h2 className="subtitle">Escalabilidad y Buenas Prácticas</h2>
                 <p>Para no depender de los componentes de Next.js en toda nuestra página, una buena práctica sería crear un componente propio que sirva de enrutador, y utilicé las funciones de Next.js que están activas en este momento, pero que nos permita actualizar o modificar ese componente de forma sencilla, sin tener que revisar toda la aplicación en caso de que en algún momento el componente de Next.js que estamos utilizando cambie o quede deprecado.</p>
+                <div className="d-flex">
+                    <p>En este ejemplo el enlace que redirecciona a</p>
+                    <Linker customClass={"inlineLink"} href={"/documentacion/buenas-practicas"} content="Buenas Prácticas"></Linker>
+                    <p>está utilizando un componente propio llamado <i>Linker</i> que utiliza la funcionalidad de Link de Next en un único archivo y recibe como parámetros: la url de destino, las clases y el texto del enlace.</p>
+                </div>
                 <p>Esto no sólo se limita a rutas, sino a todas las funcionalidades de Next.js que utilicemos. Lo mejor siempre será tener el mayor control posible sobre nuestros componentes.</p>
             </main>
+            <style jsx global>{`
+                .d-flex{
+                    display:flex;
+                    gap: 5px;
+                    flex-wrap:wrap;
+                    text-wrap:wrap;
+                }
+
+            `}</style>
         </>
     )
 }
