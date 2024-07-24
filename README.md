@@ -81,3 +81,8 @@ Los estilos globales afectarán a toda la app:
 // En versiones anteriores para que sea semánticamente correcto <a> debía estar dentro de Link, hoy ya no hace falta, Link se renderiza como <a>
 
 - De está manera pese a usar distintos index.js se comportará como SPA
+
+
+# Cosas interesantes
+
+Stable incremental static regeneration

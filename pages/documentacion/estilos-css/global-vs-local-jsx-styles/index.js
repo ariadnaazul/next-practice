@@ -61,6 +61,8 @@ export default function GlobalVsLocalJSXStyles() {
                 <pre>
                     <code dangerouslySetInnerHTML={{ __html: codeString.replace(/</g, '&lt;').replace(/>/g, '&gt;') }} />
                 </pre>
+                <h2 className="subtitle">Recursos</h2>
+                <p>Para poder visualizar el código CSS en formato JSX con la marcación de colores y utilizar también el texto predictivo es necesario instalar la extensión <i>Styled JSX</i></p>
             </main>
         </>
     )

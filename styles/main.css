@@ -62,6 +62,7 @@ pre {
   height: fit-content;
   --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
   --transform: rotate(-90deg);
+  background-color: black!important;
 }
 
 /* Estilos para el contenido del dropdown (oculto por defecto) */
@@ -80,8 +81,6 @@ pre {
   width: fit-content;
   padding: 20px;
   z-index: 10;
-}
-.dropDownContent{
   list-style: none;
 }
 .dropDownContent li{

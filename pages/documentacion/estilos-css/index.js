@@ -38,6 +38,14 @@ export default function EstilosCSS (){
                             CSS Modules, Global CSS files
                         </p>
                     </Link>
+                    <Link href="/documentacion/estilos-css/export-theme" className={styles.card}>
+                        <h2>
+                            Export Theme <span>-&gt;</span>
+                        </h2>
+                        <p>
+                            Variables de tema, utilidades, concatenación
+                        </p>
+                    </Link>
                 </div>
             </main >
             
