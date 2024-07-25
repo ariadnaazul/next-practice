@@ -1,21 +1,21 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   padding: 6rem;
   min-height: 100vh;
 }
 .main.content {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   padding: 6rem;
   min-height: 100vh;
 }
 .nav > ul{
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 30px;
   margin: 0px;
 }

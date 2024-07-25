@@ -12,7 +12,7 @@ export default function FetchingProps (){
             <main className={`${styles.main} ${inter.className}`} >
                 <NavBar></NavBar>
                 <Volver href={"/documentacion"}></Volver>
-                <h1 class={`${styles.title}`}>Fetching y Props</h1>
+                <h1 className={`${styles.title}`}>Fetching y Props</h1>
                 <div className={styles.grid}>
                     <Link href="/documentacion/fetching-y-props/get-initial-props" className={styles.card}>
                         <h2>

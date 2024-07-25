@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 import Volver from "@/components/Volver";
 import Link from "next/link";
+import Linker from "@/components/Linker";
 
 
 export default function GlobalVsLocalJSXStyles() {
@@ -63,6 +64,8 @@ export default function GlobalVsLocalJSXStyles() {
                 </pre>
                 <h2 className="subtitle">Recursos</h2>
                 <p>Para poder visualizar el código CSS en formato JSX con la marcación de colores y utilizar también el texto predictivo es necesario instalar la extensión <i>Styled JSX</i></p>
+                <Linker customClass={'inlineLink'} href={'/documentacion/buenas-practicas#modularizar-estilos'} content={'Ver como modularizar estilos en Buenas prácticas'}></Linker>
+
             </main>
         </>
     )

@@ -1,4 +1,5 @@
 import AppLayout from "@/components/AppLayout";
+import Linker from "@/components/Linker";
 import Volver from "@/components/Volver";
 import Link from 'next/link'
 
@@ -42,8 +43,7 @@ export default function AppLayoutPage() {
                 <pre>
                     <code dangerouslySetInnerHTML={{ __html: codeString.replace(/</g, '&lt;').replace(/>/g, '&gt;') }} />
                 </pre>
-
-
+                
             </AppLayout>
         </>
     )

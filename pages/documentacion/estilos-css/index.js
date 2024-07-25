@@ -12,7 +12,7 @@ export default function EstilosCSS (){
             <main className={`${styles.main} ${inter.className}`} >
                 <NavBar></NavBar>
                 <Volver href={"/documentacion"}></Volver>
-                <h1 class={`${styles.title}`}>Estilos CSS</h1>
+                <h1 className={`${styles.title}`}>Estilos CSS</h1>
                 <div className={styles.grid}>
                     <Link href="/documentacion/estilos-css/app-layout" className={styles.card}>
                         <h2>

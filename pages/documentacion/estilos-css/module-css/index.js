@@ -47,7 +47,7 @@ export default function () {
                     </code>
                 </pre>
                 <p></p>
-                <a class={`${styles.inlineLink}`} href="https://nextjs.org/docs/messages/css-global">Read more...</a>
+                <a className={`${styles.inlineLink}`} href="https://nextjs.org/docs/messages/css-global">Read more...</a>
             </main>
         </>
     )
